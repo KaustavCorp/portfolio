@@ -1,0 +1,37 @@
+Step 1: Install Pandoc and MikTex
+- Go to the official site: https://pandoc.org/installing.html (pandoc.org in Bing)
+- Download the Windows installer (.msi) and run it.
+- Install LaTeX (for PDF rendering). A lightweight option is TeX Live or MikTeX.(https://miktex.org/download)
+
+Step 2: Create a Custom Template
+Refer resume-template.tex in the project
+
+Step 3: Convert Markdown to PDF
+Run this command in your terminal(you should be at the location where all files(md and .tex files are present):
+pandoc Kaustav_Kumar_Das_Resume.md --pdf-engine=xelatex --template=resume-template.tex -o Kaustav_Kumar_Das_Resume.pdf
+
+Step 4: Export to Word (if needed)
+pandoc Kaustav_Kumar_Das_Resume.md -o Kaustav_Kumar_Das_Resume.docx
+
+--Note(optional) if MikTex or Pandoc is not found, need to add it to PATH.
+To add MiKTeX to your system PATH on Windows, follow these steps:
+1. Locate MiKTeX Installation Path
+By default, MiKTeX installs in this directory:
+- C:\Users\<YourUser>\AppData\Local\Programs\MiKTeX\miktex\bin\x64
+
+2. Add to PATH
+- Press Win + R, type sysdm.cpl, and hit Enter.
+- Go to the Advanced tab → click Environment Variables.
+- Under System variables, find and select Path, then click Edit.
+- Click New and paste the MiKTeX bin\x64 folder path (e.g., C:\Program Files\MiKTeX\miktex\bin\x64).
+- Click OK to save changes.
+
+3. Verify
+Open a new Command Prompt or PowerShell and run:
+xelatex --version
+
+
+
+
+
+

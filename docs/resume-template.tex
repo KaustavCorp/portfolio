@@ -1,0 +1,40 @@
+\documentclass[11pt,a4paper]{article}
+
+% Page setup
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref} % for clickable links
+\usepackage{xcolor}   % for colored section headers
+\usepackage{parskip}  % better paragraph spacing
+
+% Fix Pandoc's \tightlist command
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Define a professional color (dark blue)
+\definecolor{sectionblue}{RGB}{0,51,102}
+
+% Section formatting with color
+\titleformat{\section}
+  {\large\bfseries\color{sectionblue}}{}{0em}{}[\titlerule]
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{sectionblue}}{}{0em}{}
+
+% Bullet formatting
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Font setup (safe defaults)
+% Uncomment if you want custom fonts:
+\usepackage{fontspec}
+\setmainfont{Lato} % or Arial, Lato, etc.
+\setcounter{secnumdepth}{0}
+\begin{document}
+
+$body$
+
+\end{document}
