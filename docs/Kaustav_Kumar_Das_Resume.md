@@ -9,7 +9,7 @@ kaustavkumardas1992@outlook.com
 ---
 
 ## Professional Summary
-Senior Data Engineer with extensive experience architecting and building scalable ELT/ETL pipelines, building and optimizing data warehousing solutions, and ensuring data reliability and data quality. 
+Senior Data Engineer with 10+ years experience architecting and building scalable ELT/ETL pipelines(using dbt,Apache Spark(pyspark),AWS Glue,Informatica Powercenter,IBM Datastage), building and optimizing data warehousing solutions(using Snowflake,Databricks,Oracle), and ensuring data reliability and data quality. 
 Skilled in distributed systems, orchestration frameworks, and cloud data platforms. Strong analytical and problem-solving abilities, with proven success in reducing costs and improving performance. 
 Adept at clear documentation and collaborative teamwork in Agile environments.
 
@@ -22,16 +22,19 @@ Adept at clear documentation and collaborative teamwork in Agile environments.
 *06/2023 – Present*  
 Project: Data Analytics and Enterprise Architecture  
 
-- Designed and built ingestion pipelines, converting full loads to incremental models, saving **80% Snowflake cost**.  
-- Developed and maintained **300+ automated ELT pipelines** using dbt, AWS S3, Glue, Lambda, Step Functions, and Snowflake.  
+- Involved with Product Owners,Business Engagement Leads,BRMs from discovery phase of a data project to planning and designing
+all the tools/tech stacks/methods required for data ingestion, storage and organization,transformation and processing,validation and quality,serving and consumption,governance, security and monitoring. Also helped with data platform governance.
+- Designed and built ingestion pipelines, converting full loads to incremental models, saving **80% of Snowflake cost**. Additionally designed custom warehousing solution which saved another **40% of Snowflake cost** in return helping to enhance refresh rate of warehouse from once a day to thrice a day with same budget.  
+- Developed and maintained **300+ automated ELT pipelines** using **dbt, AWS S3, Apache Spark(pyspark), AWS Glue, AWS Lambda,AWS Step Functions, and Snowflake/Databricks.**  
 - Built **Unified Data Platform (UDP)**, centralized and homogenized source of truth to serve enterprise-wide data needs.  
+- Helped in data migration of older data warehouse solutions to the Snowflake data warehouse.
 - Optimized queries and pipelines, improving performance and reliability.  
 - Documented **30+ data sources, flows, and infrastructure** for knowledge sharing.  
 - Automated deployments with Python scripts, GitLab CI/CD, and Snowflake scripting.  
-- Standardized release management using Git, Confluence, Jira, and DevOps practices.  
+- Standardized release management using **Git, Confluence, Jira, and DevOps practices.**  
 - Ensured data quality through reconciliation, auditing, and rigorous testing.  
+- Led team of data engineers, business analysts having size of **20(mix of FTE and vendors)** to deliver on data products.
 
----
 
 ### Data Engineer  
 **IBM India Pvt Ltd, Pune, India**  
@@ -74,6 +77,8 @@ West Bengal University of Technology – Asansol
 ---
 
 ## Certifications
+
+- SnowPro Associate: Platform Certification (2026)
 - AWS Certified Cloud Practitioner (2022)  
 - Microsoft Certified: Azure Data Engineer Associate (2021)  
 - Microsoft Certified: Azure Administrator Associate (2021)  
@@ -86,10 +91,10 @@ West Bengal University of Technology – Asansol
 ---
 
 ## Technical Skills
-- **Data Platforms:** Snowflake, dbt, AWS Glue, IBM Datastage, Informatica PowerCenter, TIBCO BW  
+- **Data Platforms:** Snowflake, dbt, AWS Glue, Apache Spark(pyspark), Databricks, IBM Datastage, Informatica PowerCenter, TIBCO BW  
 - **Programming & Tools:** Python, SQL, Git, Control-M, Urban Code Deploy, Globalscape EFT  
 - **Visualization:** Tableau, Power BI, Cognos  
-- **Cloud & Architecture:** AWS (S3, Lambda, Step Functions), Azure, Cloud Data Architecture  
+- **Cloud & Architecture:** AWS (S3, Lambda, Step Functions), Apache Airflow.  
 - **Other:** Data Modeling, Data Warehousing, Orchestration Frameworks  
 
 ---
