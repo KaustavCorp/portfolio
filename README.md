@@ -20,7 +20,7 @@ Adept at clear documentation and collaborative teamwork in Agile environments.
 
 ## 🚀 Portfolio Projects
 
-### 🔹 [PySpark Medallion Architecture Pipeline](https://github.com/your-username/pyspark-medallion)
+### 🔹 [PySpark Medallion Architecture Pipeline](https://github.com/KaustavCorp/Sales_Analytics)
 - ELT pipeline using PySpark + Airflow
 - SQL Server as source and target
 - Parquet as intermediate storage
